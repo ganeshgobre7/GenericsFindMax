@@ -12,7 +12,9 @@ namespace GenericsFindMax
 
             float flotMax = FindMaxNumber.FloatMaxNumber(100.10f, 200.20f, 300.30f);
             Console.WriteLine("Maximum Float Number is :" + flotMax);
+
+            string stringMax = FindMaxNumber.StringMaxNumber("Apple", "Peach", "Banana");
+            Console.WriteLine("Maximum String Number is :" + stringMax);
         }
-            
-    }
+    }   
 }
